@@ -1,0 +1,8 @@
+#!/bin/sh
+
+QTILE=$HOME/.qtile
+
+# impersonate LG3D so java swing apps work
+#wmname LG3D
+
+exec qtile -c $QTILE/config.py
